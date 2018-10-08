@@ -1,8 +1,4 @@
-agent any{
-tools{
-jdk 'jdk1.8'
-}
-stages{
+node{
   stage('Checkout'){
     git 'https://github.com/varampati6/Hello_World.git'
   }
@@ -12,4 +8,3 @@ stages{
     }
   }  
 
-}
