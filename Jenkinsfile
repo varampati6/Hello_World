@@ -8,11 +8,11 @@ pipeline {
     }
     stage('Test') {
       steps {
-        echo 'Tesing'
+        echo 'mvn clean install package'
       }
     }
   }
-  environment {
-    NAME = 'Hello World'
-  }
+//  environment {
+//    NAME = 'Hello World'
+//  }
 }
