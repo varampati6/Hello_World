@@ -7,7 +7,8 @@ pipeline {
   stages {
     stage('Build') {
       steps {
-        sh 'git clone https://github.com/varampati6/Hello_World.git'
+        echo ' Cloning'
+        //sh 'git clone https://github.com/varampati6/Hello_World.git'
       }
     }
     stage('Test') {
