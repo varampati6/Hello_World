@@ -21,6 +21,6 @@ pipeline {
    }
   }
 //  environment {
-//    NAME = 'Hello World'
+//    NAME = 'Hello World '
 //  }
 }
